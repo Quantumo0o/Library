@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=${charset}"/>
+    <link rel="SHORTCUT ICON" href="img/clover.ico" />
+    <link rel="stylesheet" href="style.css" media="all"/>
+    <link rel="stylesheet" href="aui/css/aui.min.css" media="all"/>
+    <link rel="stylesheet" href="aui/css/aui-experimental.min.css" media="all"/>
+    <!--[if IE 9]><link rel="stylesheet" href="aui/css/aui-ie9.min.css" media="all"/><![endif]-->
+
+    <script src="jquery-1.8.3.min.js" type="text/javascript"></script>
+    <script src="aui/js/aui.min.js" type="text/javascript"></script>
+    <script src="aui/js/aui-experimental.min.js" type="text/javascript"></script>
+    <script src="aui/js/aui-soy.min.js" type="text/javascript"></script>
+    <script src="clover.js" type="text/javascript"></script>
+
+    <title>Clover</title>
+</head>
+
+<body style="min-width: 200px;">
+
+<div class="aui-group">
+    <div class="aui-item">
+        <div class="dashboard-widget">
+            <header class="dashboard-widget-header">
+                <h3>
+                    <label title="A summary of the projects overall coverage.">Coverage</label>
+                    <label class="aui-button aui-button-subtle" onclick="self.location='cloverview:coverage'">
+                        <span class="aui-icon aui-icon-small aui-iconfont-arrows-right"></span>
+                    </label>
+                </h3>
+            </header>
+            <div class="dashboard-widget-content">
+                
+                <span>
+                    21 classes,
+                    380 /
+                    2,560 elements
+                </span>
+                <div style="display: table; width: 100%">
+<div class="barGraphValue"><span class="sortValue">0.1484375</span>14.8%</div><div style="display: table-cell">
+ <div title="14.8% Covered"  style="min-width:200px;" class="barNegative contribBarNegative "><div class="barPositive contribBarPositive " style="width:14.8%"></div></div></div></div>
+            </div>
+        </div>
+
+        <div class="dashboard-widget">
+            <header class="dashboard-widget-header">
+                <h3>
+                    <label title="A summary of results of all tests that were run.">Test results</label>
+                    <label class="aui-button aui-button-subtle" onclick="self.location='cloverview:testresults'">
+                        <span class="aui-icon aui-icon-small aui-iconfont-arrows-right"></span>
+                    </label>
+                </h3>
+            </header>
+            <div class="dashboard-widget-content">
+                                <span>
+                    0 / 0 tests
+                    (0 secs)
+                </span>
+                                        <div class="aui-message aui-message-warning">
+        <p class="title">
+            <strong>No test results</strong>
+        </p>
+        <p>No test results could be found. Please ensure that you have instrumented your unit tests correctly.</p>
+    </div>
+                            </div>
+        </div>
+
+    
+    
+        <div class="dashboard-widget">
+            <header class="dashboard-widget-header">
+                <h3>
+                    <label title="The most complex packages in the project.">Most complex packages</label>
+                    <label class="aui-button aui-button-subtle" onclick="self.location='cloverview:coverage'">
+                        <span class="aui-icon aui-icon-small aui-iconfont-arrows-right"></span>
+                    </label>
+                </h3>
+            </header>
+            <div class="dashboard-widget-content">
+                
+                <table>
+                                            
+                                                <tr><td>1. </td><td><div style="display: table; width: 100%">
+<div class="barGraphValue"><span class="sortValue">0.1484375</span>14.8%</div><div style="display: table-cell">
+ <div title="14.8% Covered"  style="min-width:40px;" class="barNegative contribBarNegative "><div class="barPositive contribBarPositive " style="width:14.8%"></div></div></div></div></td><td><a class="tag" href="javapkg:default-pkg">default-pkg</a> (260)</td></tr>
+                                    </table>
+            </div>
+        </div>
+
+        <div class="dashboard-widget">
+            <header class="dashboard-widget-header">
+                <h3>
+                    <label title="The most complex classes in the project.">Most complex classes</label>
+                    <label class="aui-button aui-button-subtle" onclick="self.location='cloverview:coverage'">
+                        <span class="aui-icon aui-icon-small aui-iconfont-arrows-right"></span>
+                    </label>
+                </h3>
+            </header>
+            <div class="dashboard-widget-content">
+                <table>
+                                            
+                                                <tr><td>1. </td><td><div style="display: table; width: 100%">
+<div class="barGraphValue"><span class="sortValue">0.0</span>0%</div><div style="display: table-cell">
+ <div title="0% Covered"  style="min-width:40px;" class="barNegative contribBarNegative "><div class="barPositive contribBarPositive " style="width:0%"></div></div></div></div></td><td>
+                            <a  class="tag" href="javaclass:/Book.java#29_14"  title="Book">Book</a>
+                            (32)
+                        </td></tr>
+                                            
+                                                <tr><td>2. </td><td><div style="display: table; width: 100%">
+<div class="barGraphValue"><span class="sortValue">0.0</span>0%</div><div style="display: table-cell">
+ <div title="0% Covered"  style="min-width:40px;" class="barNegative contribBarNegative "><div class="barPositive contribBarPositive " style="width:0%"></div></div></div></div></td><td>
+                            <a  class="tag" href="javaclass:/Issuebook.java#32_14"  title="Issuebook">Issuebook</a>
+                            (31)
+                        </td></tr>
+                                            
+                                                <tr><td>3. </td><td><div style="display: table; width: 100%">
+<div class="barGraphValue"><span class="sortValue">0.0</span>0%</div><div style="display: table-cell">
+ <div title="0% Covered"  style="min-width:40px;" class="barNegative contribBarNegative "><div class="barPositive contribBarPositive " style="width:0%"></div></div></div></div></td><td>
+                            <a  class="tag" href="javaclass:/Return2.java#43_14"  title="Return2">Return2</a>
+                            (28)
+                        </td></tr>
+                                            
+                                                <tr><td>4. </td><td><div style="display: table; width: 100%">
+<div class="barGraphValue"><span class="sortValue">0.0</span>0%</div><div style="display: table-cell">
+ <div title="0% Covered"  style="min-width:40px;" class="barNegative contribBarNegative "><div class="barPositive contribBarPositive " style="width:0%"></div></div></div></div></td><td>
+                            <a  class="tag" href="javaclass:/member2.java#31_14"  title="member2">member2</a>
+                            (23)
+                        </td></tr>
+                                            
+                                                <tr><td>5. </td><td><div style="display: table; width: 100%">
+<div class="barGraphValue"><span class="sortValue">0.0</span>0%</div><div style="display: table-cell">
+ <div title="0% Covered"  style="min-width:40px;" class="barNegative contribBarNegative "><div class="barPositive contribBarPositive " style="width:0%"></div></div></div></div></td><td>
+                            <a  class="tag" href="javaclass:/ctagory.java#28_14"  title="ctagory">ctagory</a>
+                            (23)
+                        </td></tr>
+                                    </table>
+            </div>
+        </div>
+
+        <div class="dashboard-widget">
+            <header class="dashboard-widget-header">
+                <h3>
+                    <label title="A list of classes that have the highest complexity and least coverage. These pose the greatest potential risk to the project.">
+                        Top 20 project risks</label>
+                    <label class="aui-button aui-button-subtle" onclick="self.location='cloverview:toprisks'">
+                        <span class="aui-icon aui-icon-small aui-iconfont-arrows-right"></span>
+                    </label>
+                </h3>
+            </header>
+            <div class="dashboard-widget-content">
+                <div>
+                    
+                                                                            <a class="tag" href="javaclass:/viewbook.java#14_14"
+                               style="font-size: 20px;color:#89c495"
+                               title="Average Method Complexity - 2 , Coverage - 97.8% ">viewbook</a>
+                                            
+                                                                            <a class="tag" href="javaclass:/Issuebook.java#32_14"
+                               style="font-size: 25px;color:#d04437"
+                               title="Average Method Complexity - 2.818 , Coverage - 0% ">Issuebook</a>
+                                            
+                                                                            <a class="tag" href="javaclass:/Book.java#29_14"
+                               style="font-size: 23px;color:#d04437"
+                               title="Average Method Complexity - 2.462 , Coverage - 0% ">Book</a>
+                                            
+                                                                            <a class="tag" href="javaclass:/ViewIssuedBooks.java#27_14"
+                               style="font-size: 20px;color:#89c495"
+                               title="Average Method Complexity - 2 , Coverage - 96.8% ">ViewIssuedBooks</a>
+                                            
+                                                                            <a class="tag" href="javaclass:/Return2.java#43_14"
+                               style="font-size: 22px;color:#d04437"
+                               title="Average Method Complexity - 2.333 , Coverage - 0% ">Return2</a>
+                                            
+                                                                            <a class="tag" href="javaclass:/LibrarianLogin.java#22_14"
+                               style="font-size: 16px;color:#89c495"
+                               title="Average Method Complexity - 1.4 , Coverage - 98.5% ">LibrarianLogin</a>
+                                            
+                                                                            <a class="tag" href="javaclass:/DB.java#4_14"
+                               style="font-size: 20px;color:#14892c"
+                               title="Average Method Complexity - 2 , Coverage - 85.7% ">DB</a>
+                                            
+                                                                            <a class="tag" href="javaclass:/member2.java#31_14"
+                               style="font-size: 22px;color:#d04437"
+                               title="Average Method Complexity - 2.3 , Coverage - 0% ">member2</a>
+                                            
+                                                                            <a class="tag" href="javaclass:/Library.java#19_14"
+                               style="font-size: 15px;color:#89c495"
+                               title="Average Method Complexity - 1.2 , Coverage - 97.2% ">Library</a>
+                                            
+                                                                            <a class="tag" href="javaclass:/Publisher.java#34_14"
+                               style="font-size: 22px;color:#d04437"
+                               title="Average Method Complexity - 2.3 , Coverage - 0% ">Publisher</a>
+                                            
+                                                                            <a class="tag" href="javaclass:/LibrarianSuccess.java#27_14"
+                               style="font-size: 17px;color:#14892c"
+                               title="Average Method Complexity - 1.5 , Coverage - 82.4% ">LibrarianSuccess</a>
+                                            
+                                                                            <a class="tag" href="javaclass:/AdminLogin.java#21_14"
+                               style="font-size: 18px;color:#fae1a0"
+                               title="Average Method Complexity - 1.6 , Coverage - 73.4% ">AdminLogin</a>
+                                            
+                                                                            <a class="tag" href="javaclass:/LibrarianDao.java#3_14"
+                               style="font-size: 20px;color:#e28e87"
+                               title="Average Method Complexity - 2 , Coverage - 46.2% ">LibrarianDao</a>
+                                            
+                                                                            <a class="tag" href="javaclass:/Author.java#27_14"
+                               style="font-size: 22px;color:#d04437"
+                               title="Average Method Complexity - 2.3 , Coverage - 0% ">Author</a>
+                                            
+                                                                            <a class="tag" href="javaclass:/ctagory.java#28_14"
+                               style="font-size: 22px;color:#d04437"
+                               title="Average Method Complexity - 2.3 , Coverage - 0% ">ctagory</a>
+                                            
+                                                                            <a class="tag" href="javaclass:/Adminlogindone.java#13_14"
+                               style="font-size: 15px;color:#d04437"
+                               title="Average Method Complexity - 1.091 , Coverage - 0% ">Adminlogindone</a>
+                                            
+                                                                            <a class="tag" href="javaclass:/Book.java#445_15"
+                               style="font-size: 14px;color:#d04437"
+                               title="Average Method Complexity - 1 , Coverage - 0% ">Book.CetItem</a>
+                                            
+                                                                            <a class="tag" href="javaclass:/Book.java#461_15"
+                               style="font-size: 14px;color:#d04437"
+                               title="Average Method Complexity - 1 , Coverage - 0% ">Book.AutItem</a>
+                                            
+                                                                            <a class="tag" href="javaclass:/Book.java#477_15"
+                               style="font-size: 14px;color:#d04437"
+                               title="Average Method Complexity - 1 , Coverage - 0% ">Book.PubItem</a>
+                                            
+                                                                            <a class="tag" href="javaclass:/Issuebook.java#464_15"
+                               style="font-size: 14px;color:#d04437"
+                               title="Average Method Complexity - 1 , Coverage - 0% ">Issuebook.Bookid</a>
+                                                            </div>
+            </div>
+        </div>
+
+            <div class="dashboard-widget">
+            <header class="dashboard-widget-header">
+                <h3>
+                    <label title="A list of methods least tested, ranked in decreasing complexity.">Least tested methods</label>
+                    <label class="aui-button aui-button-subtle" onclick="self.location='cloverview:quickwins'">
+                        <span class="aui-icon aui-icon-small aui-iconfont-arrows-right"></span>
+                    </label>
+                </h3>
+            </header>
+            <div class="dashboard-widget-content">
+                <table>
+                                            <tr>
+                            <td align="right">1.</td>
+                            <td align="right">0%</td>
+                            <td style="padding-left:25px; text-indent:-25px;">                                <a class="tag" title="Book.Book()" href="javamethod:/Book.java#45_2">Book.Book(<wbr>)<wbr></a> (1)
+                            </td>
+                        </tr>
+                                            <tr>
+                            <td align="right">2.</td>
+                            <td align="right">0%</td>
+                            <td style="padding-left:25px; text-indent:-25px;">                                <a class="tag" title="member2.member2()" href="javamethod:/member2.java#47_2">member2.member2(<wbr>)<wbr></a> (1)
+                            </td>
+                        </tr>
+                                            <tr>
+                            <td align="right">3.</td>
+                            <td align="right">0%</td>
+                            <td style="padding-left:25px; text-indent:-25px;">                                <a class="tag" title="Issuebook.Issuebook()" href="javamethod:/Issuebook.java#49_2">Issuebook.Issuebook(<wbr>)<wbr></a> (1)
+                            </td>
+                        </tr>
+                                            <tr>
+                            <td align="right">4.</td>
+                            <td align="right">0%</td>
+                            <td style="padding-left:25px; text-indent:-25px;">                                <a class="tag" title="Return2.Return2()" href="javamethod:/Return2.java#59_2">Return2.Return2(<wbr>)<wbr></a> (1)
+                            </td>
+                        </tr>
+                                            <tr>
+                            <td align="right">5.</td>
+                            <td align="right">0%</td>
+                            <td style="padding-left:25px; text-indent:-25px;">                                <a class="tag" title="Author.Author()" href="javamethod:/Author.java#40_2">Author.Author(<wbr>)<wbr></a> (1)
+                            </td>
+                        </tr>
+                                            <tr>
+                            <td align="right">6.</td>
+                            <td align="right">0%</td>
+                            <td style="padding-left:25px; text-indent:-25px;">                                <a class="tag" title="Publisher.Publisher()" href="javamethod:/Publisher.java#47_2">Publisher.Publisher(<wbr>)<wbr></a> (1)
+                            </td>
+                        </tr>
+                                            <tr>
+                            <td align="right">7.</td>
+                            <td align="right">0%</td>
+                            <td style="padding-left:25px; text-indent:-25px;">                                <a class="tag" title="Book.actionPerformed(ActionEvent)&#160;:&#160;void" href="javamethod:/Book.java#153_4">Book.actionPerformed(<wbr>ActionEvent)<wbr>&#160;:&#160;void</a> (4)
+                            </td>
+                        </tr>
+                                            <tr>
+                            <td align="right">8.</td>
+                            <td align="right">0%</td>
+                            <td style="padding-left:25px; text-indent:-25px;">                                <a class="tag" title="Book.actionPerformed(ActionEvent)&#160;:&#160;void" href="javamethod:/Book.java#72_4">Book.actionPerformed(<wbr>ActionEvent)<wbr>&#160;:&#160;void</a> (4)
+                            </td>
+                        </tr>
+                                            <tr>
+                            <td align="right">9.</td>
+                            <td align="right">0%</td>
+                            <td style="padding-left:25px; text-indent:-25px;">                                <a class="tag" title="member2.actionPerformed(ActionEvent)&#160;:&#160;void" href="javamethod:/member2.java#164_4">member2.actionPerformed(<wbr>ActionEvent)<wbr>&#160;:&#160;void</a> (4)
+                            </td>
+                        </tr>
+                                            <tr>
+                            <td align="right">10.</td>
+                            <td align="right">0%</td>
+                            <td style="padding-left:25px; text-indent:-25px;">                                <a class="tag" title="ctagory.ctagory()" href="javamethod:/ctagory.java#39_2">ctagory.ctagory(<wbr>)<wbr></a> (1)
+                            </td>
+                        </tr>
+                                            <tr>
+                            <td align="right">11.</td>
+                            <td align="right">0%</td>
+                            <td style="padding-left:25px; text-indent:-25px;">                                <a class="tag" title="member2.actionPerformed(ActionEvent)&#160;:&#160;void" href="javamethod:/member2.java#88_4">member2.actionPerformed(<wbr>ActionEvent)<wbr>&#160;:&#160;void</a> (4)
+                            </td>
+                        </tr>
+                                            <tr>
+                            <td align="right">12.</td>
+                            <td align="right">0%</td>
+                            <td style="padding-left:25px; text-indent:-25px;">                                <a class="tag" title="Adminlogindone.Adminlogindone()" href="javamethod:/Adminlogindone.java#38_2">Adminlogindone.Adminlogindone(<wbr>)<wbr></a> (1)
+                            </td>
+                        </tr>
+                                            <tr>
+                            <td align="right">13.</td>
+                            <td align="right">0%</td>
+                            <td style="padding-left:25px; text-indent:-25px;">                                <a class="tag" title="Issuebook.actionPerformed(ActionEvent)&#160;:&#160;void" href="javamethod:/Issuebook.java#324_4">Issuebook.actionPerformed(<wbr>ActionEvent)<wbr>&#160;:&#160;void</a> (3)
+                            </td>
+                        </tr>
+                                            <tr>
+                            <td align="right">14.</td>
+                            <td align="right">0%</td>
+                            <td style="padding-left:25px; text-indent:-25px;">                                <a class="tag" title="Author.actionPerformed(ActionEvent)&#160;:&#160;void" href="javamethod:/Author.java#131_4">Author.actionPerformed(<wbr>ActionEvent)<wbr>&#160;:&#160;void</a> (4)
+                            </td>
+                        </tr>
+                                            <tr>
+                            <td align="right">15.</td>
+                            <td align="right">0%</td>
+                            <td style="padding-left:25px; text-indent:-25px;">                                <a class="tag" title="Publisher.actionPerformed(ActionEvent)&#160;:&#160;void" href="javamethod:/Publisher.java#142_4">Publisher.actionPerformed(<wbr>ActionEvent)<wbr>&#160;:&#160;void</a> (4)
+                            </td>
+                        </tr>
+                                            <tr>
+                            <td align="right">16.</td>
+                            <td align="right">0%</td>
+                            <td style="padding-left:25px; text-indent:-25px;">                                <a class="tag" title="ctagory.actionPerformed(ActionEvent)&#160;:&#160;void" href="javamethod:/ctagory.java#126_4">ctagory.actionPerformed(<wbr>ActionEvent)<wbr>&#160;:&#160;void</a> (4)
+                            </td>
+                        </tr>
+                                            <tr>
+                            <td align="right">17.</td>
+                            <td align="right">0%</td>
+                            <td style="padding-left:25px; text-indent:-25px;">                                <a class="tag" title="Return2.actionPerformed(ActionEvent)&#160;:&#160;void" href="javamethod:/Return2.java#87_4">Return2.actionPerformed(<wbr>ActionEvent)<wbr>&#160;:&#160;void</a> (3)
+                            </td>
+                        </tr>
+                                            <tr>
+                            <td align="right">18.</td>
+                            <td align="right">0%</td>
+                            <td style="padding-left:25px; text-indent:-25px;">                                <a class="tag" title="Publisher.actionPerformed(ActionEvent)&#160;:&#160;void" href="javamethod:/Publisher.java#88_4">Publisher.actionPerformed(<wbr>ActionEvent)<wbr>&#160;:&#160;void</a> (4)
+                            </td>
+                        </tr>
+                                            <tr>
+                            <td align="right">19.</td>
+                            <td align="right">0%</td>
+                            <td style="padding-left:25px; text-indent:-25px;">                                <a class="tag" title="Return2.mouseClicked(MouseEvent)&#160;:&#160;void" href="javamethod:/Return2.java#313_4">Return2.mouseClicked(<wbr>MouseEvent)<wbr>&#160;:&#160;void</a> (4)
+                            </td>
+                        </tr>
+                                            <tr>
+                            <td align="right">20.</td>
+                            <td align="right">0%</td>
+                            <td style="padding-left:25px; text-indent:-25px;">                                <a class="tag" title="Author.actionPerformed(ActionEvent)&#160;:&#160;void" href="javamethod:/Author.java#81_4">Author.actionPerformed(<wbr>ActionEvent)<wbr>&#160;:&#160;void</a> (4)
+                            </td>
+                        </tr>
+                                    </table>
+            </div>
+        </div>
+    
+    </div>
+</div>
+
+</body>
+</html>
